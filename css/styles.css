@@ -1,0 +1,181 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  color: #ffffff;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* ************************************* */
+/* LOGO */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  color: #4d5ae5;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.logo-studio-header {
+  color: #2e2f42;
+}
+
+.logo-studio-footer {
+  color: #f4f4fd;
+}
+
+/* ************************************** */
+/* HEADER */
+
+.nav-link {
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+  text-decoration: underline;
+  color: #404bbf;
+}
+
+.address-header {
+  font-style: normal;
+}
+.address-link {
+  color: #434455;
+}
+
+.address-link:hover,
+.address-link:focus,
+.address-link:active {
+  text-decoration: underline;
+  color: #404bbf;
+}
+
+/* ************************************** */
+/* HERO */
+
+.hero-section {
+  background-color: #2e2f42;
+}
+
+.hero-heading {
+  letter-spacing: 0.02em;
+}
+
+.hero-button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+/* ************************************** */
+/* SECTION "VALUES" */
+
+.value-li-heading {
+  letter-spacing: 0.02em;
+}
+.value-li-paragraf {
+  letter-spacing: 0.02em;
+}
+
+/* ************************************** */
+/* SECTION "TEAM" */
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-heading {
+  letter-spacing: 0.02em;
+}
+
+.team-li {
+  background-color: #ffffff;
+}
+
+.team-li-heading {
+  letter-spacing: 0.02em;
+}
+
+.team-li-paragraph {
+  /* font-size: 16px; */
+  text-align: center;
+}
+
+/* ************************************** */
+/* SECTION "PORTFOLIO" */
+.portfolio-heading {
+  letter-spacing: 0.02em;
+}
+
+.portfolio-li-heading {
+  text-align: left;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-li-paragraph {
+  letter-spacing: 0.02em;
+}
+
+/* ************************************** */
+/* FOOTER */
+
+.footer-section {
+  background-color: #2e2f42;
+}
+
+.footer-paragraph {
+  color: #f4f4fd;
+}
