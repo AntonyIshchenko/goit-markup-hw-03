@@ -142,6 +142,7 @@ img {
   letter-spacing: var(--main-letter-spacing);
 
   padding: 24px 0;
+  display: block;
 }
 
 .nav-link:hover,
@@ -273,8 +274,7 @@ img {
 .team-li {
   background-color: var(--white-color);
 
-  width: (100% - 72px)/4;
-  padding-bottom: 32px;
+  width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
 }
 
@@ -310,7 +310,7 @@ img {
 }
 
 .portfolio-li-item {
-  width: (100% - 72) / 3;
+  width: calc((100% - 72) / 3);
 }
 
 .portfolio-li-item-card {
